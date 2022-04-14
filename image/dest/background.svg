@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2237.08" height="3744.665" viewBox="0 0 2237.08 3744.665">
+    <g id="group" data-name="group" transform="translate(179.816 -848.979)">
+      <path id="contour_1" data-name="contour 1" d="M8,1082.384H686.482L1880.268,2308.661V3236.3H11.734Z" transform="translate(-8 4)" fill="#ffc813"/>
+      <path id="contour_2" data-name="contour 2" d="M703.844,1082.4l2149.873-.012S1431.6,1879.5,1416.058,1879.5,703.844,1082.4,703.844,1082.4Z" transform="translate(-840.056 4)" fill="#383838"/>
+      <path id="contour_3" data-name="contour 3" d="M8,1922.469,1881.175,3728.036l-2.311,1087.71L8,2980.832Z" transform="translate(-8 -1073.489)"/>
+      <path id="contour_4" data-name="contour 4" d="M8,2563.292,2245.08,3903.8,8.241,4690.063Z" transform="translate(-187.816 -161.511)" fill="#383838"/>
+      <path id="contour_5" data-name="contour 5" d="M8,4112.914l1873.175-3.018V3984.885l-627.738-658.358Z" transform="translate(38.825 480.73)" fill="#ffc813"/>
+    </g>
+  </svg>
