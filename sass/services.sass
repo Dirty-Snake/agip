@@ -1,0 +1,53 @@
+.section--services
+    background: url('../image/dest/background.svg') center no-repeat
+    background-size: 120%
+    padding-top: 300px
+    padding-bottom: 0px
+.services
+    display: flex
+    flex-direction: column
+.services__item
+    display: flex
+    margin: 48px 0
+    &:last-child
+        margin-bottom: 0px
+    &:first-child
+        margin-top: 0px
+    
+.services__item--reverse
+    flex-direction: row-reverse
+.services__description
+    display: flex
+    font-size: 21px
+    text-transform: uppercase
+    text-align: center
+    align-items: center
+    margin: 5px 0
+    background: #262626
+    color: #fff
+    max-width: 510px
+    width: 100%
+    p
+        width: 100%
+        margin: 0 auto
+@media screen and (max-width: 1800px)
+    .section--services
+        background-size: auto
+@media screen and (max-width: 1360px)
+    .section--services
+        padding-top: 150px
+@media screen and (max-width: 1024px)
+    .services__description
+        font-size: 16px
+        padding: 10px
+    .section--services
+        padding-top: 30px
+    .services__item
+        margin: 20px 0
+@media screen and (max-width: 560px)
+    .services__item
+        flex-direction: column
+    .services__description
+        margin: 0
+    .section--services
+        padding:  20px 0

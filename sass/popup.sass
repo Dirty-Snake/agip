@@ -1,0 +1,70 @@
+.popup
+    width:100%
+    min-height:100%
+    background-color: rgba(0,0,0,0.5)
+    overflow: hidden
+    position: fixed
+    top:0px
+    display: flex
+
+.popup__text
+    margin: 50px auto
+    max-width: 840px
+    height: 100%
+    padding: 75px 60px
+    background-color: #383838
+    border-radius:5px
+    box-shadow: 0px 0px 10px #000
+    font-size: 20px
+    color: #fff
+    position: relative
+    height: 500px
+    p   
+        height: 300px
+        overflow-y: auto
+        overflow-x: hidden
+        scrollbar-width: none
+.popup__close
+    background: url(../image/dest/cross.svg)
+    position: absolute
+    width: 24px
+    height: 23px
+    right: 30px
+    top: 30px
+    cursor: pointer
+.popup__link
+    position: absolute
+    bottom: 20px
+    right: 0
+    left: 0
+    cursor: pointer
+    max-width: 150px
+    text-align: center
+    background: #FFC810
+    margin: 0 auto
+    display: block
+    color: #383838
+    text-decoration: none
+    font-weight: 700
+    transition: .3s linear
+    &:hover
+        background: #ffbf00
+        color: #050505
+@media screen and (max-width: 1024px)
+    .popup__text
+        max-width: 600px
+        font-size: 16px
+        padding: 60px 40px
+    .popup__close
+        right: 10px
+        top: 10px
+@media screen and (max-width: 680px)
+    .popup__text
+        max-width: 400px
+        font-size: 14px
+        padding: 60px 40px
+@media screen and (max-width: 680px)
+    .popup__text
+        max-width: 300px
+        font-size: 12px
+        padding: 40px 20px

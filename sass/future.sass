@@ -1,0 +1,34 @@
+.future
+    display: flex
+    flex-direction: column
+    max-width: 1360px
+    width: 100%
+    margin: 0 auto
+.future__inner
+    display: flex
+    justify-content: space-between
+    margin: 40px 0
+.future__title, .future__subtitle
+    font-size: 43px
+    font-weight: 300
+    color: #fff
+    text-transform: uppercase
+    letter-spacing: 5px
+.future__subtitle
+    text-align: right
+@media screen and (max-width: 1400px)
+    .future
+        margin: 0 
+    .future__item
+        margin: 0 10px
+@media screen and (max-width: 1024px)
+    .future__title, .future__subtitle
+        font-size: 30px
+@media screen and (max-width: 650px)
+    .future__title, .future__subtitle
+        font-size: 25px
+    .future__inner
+        margin: 20px auto
+@media screen and (max-width: 550px)
+    .future__title, .future__subtitle
+        font-size: 20px
